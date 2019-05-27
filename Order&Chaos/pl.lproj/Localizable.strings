@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Order&Chaos
+
+  Created by Administrator on 14.09.2018.
+  Copyright © 2018 Administrator. All rights reserved.
+*/
+
+"Winner" = "Wygrał:";
+"Order" = "Porządek";
+"Chaos" = "Chaos";
+"Turn" = "Gra:";
