@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pko-z9-Vrg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pko-z9-Vrg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,13 +25,13 @@
                                         <rect key="frame" x="8" y="8" width="359" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWg-tG-JC8">
-                                                <rect key="frame" x="139.5" y="8" width="79.5" height="36"/>
+                                                <rect key="frame" x="140" y="8" width="79.5" height="36"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chaos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aV-Sd-c2N">
-                                                <rect key="frame" x="141.5" y="52" width="75.5" height="30"/>
+                                                <rect key="frame" x="142" y="52" width="75.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -80,14 +79,14 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="CKg-TP-k1Q" secondAttribute="trailing" constant="8" id="BVT-bQ-kpX"/>
                                     <constraint firstAttribute="trailing" secondItem="rw8-LK-0Wx" secondAttribute="trailing" constant="8" id="D9w-cJ-a6j"/>
-                                    <constraint firstItem="hmd-gJ-7bG" firstAttribute="leading" secondItem="u4a-yd-wr4" secondAttribute="leading" constant="8" id="M12-iD-uTh"/>
                                     <constraint firstItem="hmd-gJ-7bG" firstAttribute="top" secondItem="CKg-TP-k1Q" secondAttribute="bottom" constant="8" id="Ujr-Um-RDp"/>
                                     <constraint firstItem="CKg-TP-k1Q" firstAttribute="top" secondItem="u4a-yd-wr4" secondAttribute="top" constant="8" id="bob-lE-e3I"/>
                                     <constraint firstItem="rw8-LK-0Wx" firstAttribute="top" secondItem="hmd-gJ-7bG" secondAttribute="bottom" constant="8" id="d3l-8L-quG"/>
                                     <constraint firstItem="CKg-TP-k1Q" firstAttribute="leading" secondItem="u4a-yd-wr4" secondAttribute="leading" constant="8" id="eSZ-9u-eCJ"/>
+                                    <constraint firstItem="hmd-gJ-7bG" firstAttribute="leading" secondItem="u4a-yd-wr4" secondAttribute="leading" constant="8" id="gGH-TG-1Fx"/>
+                                    <constraint firstAttribute="trailing" secondItem="hmd-gJ-7bG" secondAttribute="trailing" constant="8" id="hZ7-KA-v3O"/>
                                     <constraint firstAttribute="bottom" secondItem="rw8-LK-0Wx" secondAttribute="bottom" constant="8" id="i7q-Oa-mzb"/>
                                     <constraint firstItem="rw8-LK-0Wx" firstAttribute="leading" secondItem="u4a-yd-wr4" secondAttribute="leading" constant="8" id="nyN-ht-I4m"/>
-                                    <constraint firstAttribute="trailing" secondItem="hmd-gJ-7bG" secondAttribute="trailing" constant="8" id="z7q-RM-u6J"/>
                                 </constraints>
                             </view>
                         </subviews>

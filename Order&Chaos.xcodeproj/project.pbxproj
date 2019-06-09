@@ -12,27 +12,8 @@
 		C31490FF214C14FB009856D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31490FD214C14FB009856D1 /* Main.storyboard */; };
 		C3149101214C14FD009856D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3149100214C14FD009856D1 /* Assets.xcassets */; };
 		C3149104214C14FD009856D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3149102214C14FD009856D1 /* LaunchScreen.storyboard */; };
-		C314910F214C14FD009856D1 /* Order_ChaosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314910E214C14FD009856D1 /* Order_ChaosTests.swift */; };
-		C314911A214C14FE009856D1 /* Order_ChaosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3149119214C14FE009856D1 /* Order_ChaosUITests.swift */; };
 		C36E6699214C5A640040FE9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C36E6697214C5A640040FE9C /* Localizable.strings */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C314910B214C14FD009856D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C31490EE214C14FA009856D1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C31490F5214C14FA009856D1;
-			remoteInfo = "Order&Chaos";
-		};
-		C3149116214C14FD009856D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C31490EE214C14FA009856D1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C31490F5214C14FA009856D1;
-			remoteInfo = "Order&Chaos";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C31490F6214C14FB009856D1 /* Order&Chaos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Order&Chaos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,12 +23,6 @@
 		C3149100214C14FD009856D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3149103214C14FD009856D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3149105214C14FD009856D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C314910A214C14FD009856D1 /* Order&ChaosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Order&ChaosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C314910E214C14FD009856D1 /* Order_ChaosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_ChaosTests.swift; sourceTree = "<group>"; };
-		C3149110214C14FD009856D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3149115214C14FD009856D1 /* Order&ChaosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Order&ChaosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3149119214C14FE009856D1 /* Order_ChaosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_ChaosUITests.swift; sourceTree = "<group>"; };
-		C314911B214C14FE009856D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C36E6695214C596F0040FE9C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
 		C36E6696214C596F0040FE9C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C36E6698214C5A640040FE9C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -61,20 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3149107214C14FD009856D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3149112214C14FD009856D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				C31490F8214C14FB009856D1 /* Order&Chaos */,
-				C314910D214C14FD009856D1 /* Order&ChaosTests */,
-				C3149118214C14FD009856D1 /* Order&ChaosUITests */,
 				C31490F7214C14FB009856D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				C31490F6214C14FB009856D1 /* Order&Chaos.app */,
-				C314910A214C14FD009856D1 /* Order&ChaosTests.xctest */,
-				C3149115214C14FD009856D1 /* Order&ChaosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,24 +67,6 @@
 				C3149105214C14FD009856D1 /* Info.plist */,
 			);
 			path = "Order&Chaos";
-			sourceTree = "<group>";
-		};
-		C314910D214C14FD009856D1 /* Order&ChaosTests */ = {
-			isa = PBXGroup;
-			children = (
-				C314910E214C14FD009856D1 /* Order_ChaosTests.swift */,
-				C3149110214C14FD009856D1 /* Info.plist */,
-			);
-			path = "Order&ChaosTests";
-			sourceTree = "<group>";
-		};
-		C3149118214C14FD009856D1 /* Order&ChaosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C3149119214C14FE009856D1 /* Order_ChaosUITests.swift */,
-				C314911B214C14FE009856D1 /* Info.plist */,
-			);
-			path = "Order&ChaosUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,42 +89,6 @@
 			productReference = C31490F6214C14FB009856D1 /* Order&Chaos.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C3149109214C14FD009856D1 /* Order&ChaosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3149121214C14FE009856D1 /* Build configuration list for PBXNativeTarget "Order&ChaosTests" */;
-			buildPhases = (
-				C3149106214C14FD009856D1 /* Sources */,
-				C3149107214C14FD009856D1 /* Frameworks */,
-				C3149108214C14FD009856D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C314910C214C14FD009856D1 /* PBXTargetDependency */,
-			);
-			name = "Order&ChaosTests";
-			productName = "Order&ChaosTests";
-			productReference = C314910A214C14FD009856D1 /* Order&ChaosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C3149114214C14FD009856D1 /* Order&ChaosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3149124214C14FE009856D1 /* Build configuration list for PBXNativeTarget "Order&ChaosUITests" */;
-			buildPhases = (
-				C3149111214C14FD009856D1 /* Sources */,
-				C3149112214C14FD009856D1 /* Frameworks */,
-				C3149113214C14FD009856D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3149117214C14FD009856D1 /* PBXTargetDependency */,
-			);
-			name = "Order&ChaosUITests";
-			productName = "Order&ChaosUITests";
-			productReference = C3149115214C14FD009856D1 /* Order&ChaosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,14 +101,6 @@
 				TargetAttributes = {
 					C31490F5214C14FA009856D1 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					C3149109214C14FD009856D1 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = C31490F5214C14FA009856D1;
-					};
-					C3149114214C14FD009856D1 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = C31490F5214C14FA009856D1;
 					};
 				};
 			};
@@ -224,8 +119,6 @@
 			projectRoot = "";
 			targets = (
 				C31490F5214C14FA009856D1 /* Order&Chaos */,
-				C3149109214C14FD009856D1 /* Order&ChaosTests */,
-				C3149114214C14FD009856D1 /* Order&ChaosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3149108214C14FD009856D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3149113214C14FD009856D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,36 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3149106214C14FD009856D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C314910F214C14FD009856D1 /* Order_ChaosTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3149111214C14FD009856D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C314911A214C14FE009856D1 /* Order_ChaosUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C314910C214C14FD009856D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C31490F5214C14FA009856D1 /* Order&Chaos */;
-			targetProxy = C314910B214C14FD009856D1 /* PBXContainerItemProxy */;
-		};
-		C3149117214C14FD009856D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C31490F5214C14FA009856D1 /* Order&Chaos */;
-			targetProxy = C3149116214C14FD009856D1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C31490FD214C14FB009856D1 /* Main.storyboard */ = {
@@ -381,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -436,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -481,88 +331,6 @@
 			};
 			name = Release;
 		};
-		C3149122214C14FE009856D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AV9DM695WT;
-				INFOPLIST_FILE = "Order&ChaosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kormoran.Order-ChaosTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Order&Chaos.app/Order&Chaos";
-			};
-			name = Debug;
-		};
-		C3149123214C14FE009856D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AV9DM695WT;
-				INFOPLIST_FILE = "Order&ChaosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kormoran.Order-ChaosTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Order&Chaos.app/Order&Chaos";
-			};
-			name = Release;
-		};
-		C3149125214C14FE009856D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AV9DM695WT;
-				INFOPLIST_FILE = "Order&ChaosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kormoran.Order-ChaosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Order&Chaos";
-			};
-			name = Debug;
-		};
-		C3149126214C14FE009856D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AV9DM695WT;
-				INFOPLIST_FILE = "Order&ChaosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kormoran.Order-ChaosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Order&Chaos";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,24 +348,6 @@
 			buildConfigurations = (
 				C314911F214C14FE009856D1 /* Debug */,
 				C3149120214C14FE009856D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3149121214C14FE009856D1 /* Build configuration list for PBXNativeTarget "Order&ChaosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3149122214C14FE009856D1 /* Debug */,
-				C3149123214C14FE009856D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3149124214C14FE009856D1 /* Build configuration list for PBXNativeTarget "Order&ChaosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3149125214C14FE009856D1 /* Debug */,
-				C3149126214C14FE009856D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
