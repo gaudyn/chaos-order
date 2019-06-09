@@ -26,6 +26,7 @@
 		C36E6695214C596F0040FE9C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
 		C36E6696214C596F0040FE9C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C36E6698214C5A640040FE9C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C3F2670D22AD18CD00883614 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 			children = (
 				C31490F8214C14FB009856D1 /* Order&Chaos */,
 				C31490F7214C14FB009856D1 /* Products */,
+				C3F2670D22AD18CD00883614 /* docs */,
 			);
 			sourceTree = "<group>";
 		};
