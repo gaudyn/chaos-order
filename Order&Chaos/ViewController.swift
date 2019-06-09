@@ -37,9 +37,9 @@ class ViewController: UIViewController {
     var boardTilesStates = [tileStates]()
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         currentPlayerView.layer.cornerRadius = 10
         color1Button.layer.cornerRadius = 10
         color2Button.layer.cornerRadius = 10
@@ -121,7 +121,7 @@ class ViewController: UIViewController {
     }
     
     func getTileWidth() -> Double{
-        let parentViewWidth = BoardView.bounds.width
+        let parentViewWidth = UIScreen.main.bounds.width-16
         let padding = 4
         let availableSpace = parentViewWidth - CGFloat((boardSize-1)*padding)
         return Double(availableSpace/CGFloat(boardSize))
