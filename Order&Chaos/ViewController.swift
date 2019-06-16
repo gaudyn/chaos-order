@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Order&Chaos
 //
-//  Created by Administrator on 14.09.2018.
-//  Copyright © 2018 Administrator. All rights reserved.
+//  Created by Gniewomir Gaudyn on 14.09.2018.
+//  Copyright © 2018 Gniewomir Gaudyn. All rights reserved.
 //
 
 import UIKit
