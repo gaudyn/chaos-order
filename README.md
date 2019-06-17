@@ -12,3 +12,4 @@ Chaos's goal is to stop Order from achieving its goal.
 Players can use both colors  
 ## Acknowledgments
 * inspired by Tom Scott's [Game On](https://youtu.be/qsjVfJur1ac)
+* tested by [@Bezimienna](https://github.com/Bezimienna)
