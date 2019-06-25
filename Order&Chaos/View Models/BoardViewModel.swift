@@ -10,7 +10,7 @@ import Foundation
 
 class BoardViewModel{
     
-    var currentPlayer: Box<Bool> = Box(true)
+    var currentPlayer: Box<Player> = Box(.order)
     var currentColor = true
     
     var gameEnded: Box<Bool> = Box(false)
@@ -18,16 +18,25 @@ class BoardViewModel{
     let boardSize = 6
     var emptyTiles = 36
     
-    enum tileStates: Int{
+    enum TileStates: Int{
         case empty
         case color1
         case color2
     }
     
-    var boardTilesStates: [Box<tileStates>] = [Box(tileStates.empty)]
+    enum Player: Int{
+        case order
+        case chaos
+    }
+    
+    var boardTilesStates: [Box<TileStates>] = [Box(TileStates.empty)]
 
     func changePlayer(){
-        currentPlayer.value = !currentPlayer.value
+        if currentPlayer.value == .order{
+            currentPlayer.value = .chaos
+        }else{
+            currentPlayer.value = .order
+        }
     }
     
     func changeColor(selectedColor: Bool){
@@ -39,26 +48,26 @@ class BoardViewModel{
         
         gameEnded.value = false
         
-        currentPlayer.value = true
+        currentPlayer.value = .order
     }
     
     func resetBoard(){
         emptyTiles = 36
         
         for index in 0..<boardSize*boardSize{
-            boardTilesStates[index].value = tileStates.empty
+            boardTilesStates[index].value = TileStates.empty
         }
     }
     
     func generateBoard(){
         for _ in 0..<boardSize*boardSize{
-            boardTilesStates.append(Box(tileStates.empty))
+            boardTilesStates.append(Box(TileStates.empty))
         }
     }
     
     func checkBoard() -> Bool{
         if emptyTiles == 0{
-            currentPlayer.value = false
+            currentPlayer.value = .chaos
             gameEnded.value = true
             return true
         }
@@ -69,7 +78,7 @@ class BoardViewModel{
             var color:Int = 1
             for x in 0..<boardSize{
                 let tileState = boardTilesStates[x+y*boardSize].value
-                if tileState == tileStates.empty {
+                if tileState == TileStates.empty {
                     max_con = 0
                     continue
                 }
@@ -80,7 +89,7 @@ class BoardViewModel{
                     max_con = 1
                 }
                 if max_con >= 5{
-                    currentPlayer.value = true
+                    currentPlayer.value = .order
                     gameEnded.value = true
                     return true
                 }
@@ -103,7 +112,7 @@ class BoardViewModel{
                     max_con = 1
                 }
                 if max_con >= 5{
-                    currentPlayer.value = true
+                    currentPlayer.value = .order
                     gameEnded.value = true
                     return true
                 }
@@ -159,7 +168,7 @@ class BoardViewModel{
                 max_con = 1
             }
             if max_con >= 5{
-                currentPlayer.value = true
+                currentPlayer.value = .order
                 gameEnded.value = true
                 return true
             }
@@ -176,7 +185,7 @@ extension BoardViewModel{
         return self.boardSize
     }
     
-    func getCurrentPlayer()->Bool{
+    func getCurrentPlayer()->Player{
         return self.currentPlayer.value
     }
     
@@ -184,12 +193,12 @@ extension BoardViewModel{
         return self.emptyTiles
     }
     
-    func setTileColor(index: Int, color: tileStates){
+    func setTileColor(index: Int, color: TileStates){
         self.boardTilesStates[index].value = color
         self.emptyTiles-=1
     }
     
-    func getTileColor(index: Int) -> tileStates{
+    func getTileColor(index: Int) -> TileStates{
         return boardTilesStates[index].value
     }
 }

@@ -35,7 +35,7 @@ class BoardViewController: UIViewController {
         
         viewModel.currentPlayer.bind({
             [self] in
-            if $0 == true{
+            if $0 == .order{
                 UIView.animate(withDuration: 0.2, animations: {
                     self.currentPlayerView.backgroundColor = #colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 1)
                 })
@@ -72,7 +72,7 @@ class BoardViewController: UIViewController {
                 UIView.animate(withDuration: 0.2, animations: {
                     self.currentPlayerView.backgroundColor = #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)
                 })
-                if self.viewModel.getCurrentPlayer() == true{
+                if self.viewModel.getCurrentPlayer() == .order{
                     self.currentPlayerLabel.text = NSLocalizedString("Order", value: "Order", comment: "The order player")
                 }else{
                     self.currentPlayerLabel.text = NSLocalizedString("Chaos", value: "Chaos", comment: "The opposite of order")
